@@ -1,0 +1,20 @@
+<?php
+class newConstruct{
+
+public $name, $level;
+
+public function __construct($name,$level)
+{
+$this->name = $name;
+$this->level = $level;
+}
+}
+
+$obj = new newConstruct("Turu", "Newbie");
+
+echo "Enemy: " . $obj->name . '<br>';
+echo "Level: " . $obj->level ;
+/* Output
+Enemy: Suryadi
+Level: Newbie
+*/
